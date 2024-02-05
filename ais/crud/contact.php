@@ -44,7 +44,6 @@ include "db_conn.php";
         <tr>
           <th scope="col">Contact ID</th>
           <th scope="col">Contact Name</th>
-          <th scope="col">Contact Student ID</th>
           <th scope="col">Contact Number</th><th scope="col">Email</th>
           <th scope="col">Comment</th>
           <th scope="col">Action</th>
@@ -60,7 +59,7 @@ include "db_conn.php";
           <tr>
             <td><?php echo $row["contact_id"] ?></td>
             <td><?php echo $row["contact_name"] ?></td>
-            <td><?php echo $row["contact_studid"] ?></td>
+           
             <td><?php echo $row["contact_phone"] ?></td>
             <td><?php echo $row["contact_email"] ?></td>
             <td><?php echo $row["contact_desc"] ?></td>
