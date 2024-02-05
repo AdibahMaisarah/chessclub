@@ -64,12 +64,12 @@ if (isset($_POST["submit"])) {
       <form action="" method="post" style="wclub_idth:50vw; min-wclub_idth:300px;">
         <div class="row mb-3">
           <div class="col">
-            <label class="form-label">First Name:</label>
+            <label class="form-label">Club Name:</label>
             <input type="text" class="form-control" name="club_name" value="<?php echo $row['club_name'] ?>">
           </div>
 
           <div class="col">
-            <label class="form-label">Last Name:</label>
+            <label class="form-label">Club Ownership:</label>
             <input type="text" class="form-control" name="club_owner" value="<?php echo $row['club_owner'] ?>">
           </div>
         </div>

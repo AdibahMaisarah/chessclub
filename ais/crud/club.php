@@ -21,7 +21,7 @@ include "db_conn.php";
 
 <body>
   <nav class="navbar navbar-light justify-content-center fs-3 mb-5" style="background-color: #CC66FF;">
-    UiTMCK C'STA Registration System
+    UiTMCK Club Registration System
   </nav>
 
   <nav class="navbar navbar-light justify-content-center fs-3 mb-5" style="background-color: #00fffff;">
@@ -38,7 +38,7 @@ include "db_conn.php";
     }
 	 
     ?>
-	<p align="center"><h3>Club form for C'STA </h3></p>
+	<p align="center"><h3>Club Form </h3></p>
     <a href="add_club.php" class="btn btn-dark mb-3">Add New</a>
 
     <table class="table table-hover text-center">

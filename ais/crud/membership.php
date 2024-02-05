@@ -40,7 +40,7 @@ include "db_conn.php";
 	
 	
 	
-	<p align="center"><h3>Membership form for C'STA</h3></p>
+	<p align="center"><h3>Membership Form for C'STA</h3></p>
     <a href="add-new.php" class="btn btn-dark mb-3">Add New</a>
 
     <table class="table table-hover text-center">

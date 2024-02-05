@@ -59,14 +59,20 @@ if (isset($_POST["submit"])) {
       <div class="container d-flex justify-content-center">
          <form action="" method="post" style="width:500vw; min-width:500px;">
             <div class="row mb-3">
+
+               <div class="col">
+                  <label class="form-label">Contact Student ID:</label>
+                  <input type="text" class="form-control" name="contact_studid" placeholder="Student ID">
+               </div>
+
                <div class="col">
                   <label class="form-label">Contact Name:</label>
                   <input type="text" class="form-control" name="contact_name" placeholder="Please insert your contact name">
                </div>
 
                <div class="col">
-                  <label class="form-label">Contact Student ID:</label>
-                  <input type="text" class="form-control" name="contact_studid" placeholder="Student ID">
+                  <label class="form-label">Contact Description:</label>
+                  <input type="text" class="form-control" name="contact_desc" placeholder="Insert your comment">
                </div>
 			   
                <div class="col">
@@ -79,10 +85,7 @@ if (isset($_POST["submit"])) {
                   <input type="text" class="form-control" name="contact_phone" placeholder="Insert your Contact phone">
                </div> 
 
-               <div class="col">
-                  <label class="form-label">Contact Description:</label>
-                  <input type="text" class="form-control" name="contact_desc" placeholder="Insert your comment">
-               </div>
+
             </div>
             <br> 
             <div>

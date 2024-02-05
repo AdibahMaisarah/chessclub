@@ -36,7 +36,7 @@ include "db_conn.php";
     </div>';
     }
     ?>
-	<p align="center"><h3>Activities form for UiTMCK Club Information System (UCIS)</h3></p>
+	<p align="center"><h3>Activities Form for UiTMCK Club </h3></p>
     <a href="add_activity.php" class="btn btn-dark mb-3">Add New</a>
 
     <table class="table table-hover text-center">

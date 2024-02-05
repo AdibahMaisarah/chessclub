@@ -36,7 +36,7 @@ include "db_conn.php";
     </div>';
     }
     ?>
-	<p align="center"><h3>Contact Us for UiTMCK C'STA</h3></p>
+	<p align="center"><h3>Contact Us for C'STA</h3></p>
     <a href="add_contact.php" class="btn btn-dark mb-3">Add New</a>
 
     <table class="table table-hover text-center">
@@ -45,8 +45,7 @@ include "db_conn.php";
           <th scope="col">Contact ID</th>
           <th scope="col">Contact Name</th>
           <th scope="col">Contact Student ID</th>
-          <th scope="col">Email</th>
-          <th scope="col">Contact Number</th>
+          <th scope="col">Contact Number</th><th scope="col">Email</th>
           <th scope="col">Comment</th>
           <th scope="col">Action</th>
         </tr>
